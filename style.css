@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #111;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #D85A30;
+    position: sticky;
+    top: 0;
+}
+
+header a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header ul li a:hover {
+    color: #D85A30;
+}
+
+/* MAIN */
+.page-main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 40px 0;
+}
+
+/* ACCUEIL */
+.section-accueil {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.section-accueil img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #D85A30;
+}
+
+.section-accueil h1 {
+    font-size: 28px;
+    color: #D85A30;
+    margin-bottom: 10px;
+}
+
+.section-accueil p {
+    color: #aaa;
+    font-size: 15px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 10px 0;
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #D85A30;
+    margin-bottom: 20px;
+    border-left: 4px solid #D85A30;
+    padding-left: 10px;
+}
+
+.section p {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.section a {
+    color: #D85A30;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* PROJETS */
+.projet-card {
+    background-color: #242424;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.projet-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #f0f0f0;
+}
+
+.projet-card p {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.projet-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    margin-top: 12px;
+}
+
+/* CV */
+.cv-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+/* CONTACT */
+.contact-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.contact-list li {
+    color: #aaa;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+/* COMMENTAIRES */
+.commentaire {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    background-color: #242424;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.commentaire-pp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #D85A30;
+}
+
+.commentaire strong {
+    display: block;
+    color: #D85A30;
+    margin-bottom: 4px;
+}
+
+.commentaire p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+#giscus-wrapper {
+    margin-top: 20px;
+    background-color: #242424;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#giscus-wrapper h3 {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
